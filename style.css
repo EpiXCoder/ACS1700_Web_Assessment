@@ -1,0 +1,35 @@
+.body {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+    font-family: Helvetica;
+}
+
+small {
+    font-size: 10px;
+    color: rgb(95, 97, 98);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0.5em;
+    justify-content: center;
+}
+
+.quadrant-three h2 {
+    padding: 0;
+    line-height: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.quadrant-three p{
+    padding: 0;
+    line-height: 0;
+    margin-bottom: 25px;
+    color: rgb(95, 97, 98);
+}
