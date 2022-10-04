@@ -34,10 +34,9 @@ colorBlock.style.border = '#000000 1px solid';
 inputQuad.onchange = function (e) {
     const outputDisplay = document.getElementById(`${e.target.id}_output`);
     outputDisplay.innerHTML = `${e.target.value}px`;
-
     if (e.target.id === "color") {
         colorBlock.style.backgroundColor = e.target.value;
     } else {
-        colorBlock.style[e.target.id] = `${e.target.value}`;
+        colorBlock.style[e.target.id] = `${e.target.value}px`;
     }
 };

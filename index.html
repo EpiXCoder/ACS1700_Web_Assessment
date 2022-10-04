@@ -18,14 +18,14 @@
     <section class="quadrant-two grid-cell" id="input-q2">
         <label for="width">Width:</label>
         <small>select width</small>
-        <input id="width" type="number" placeholder="Select Width"/>
+        <input id="width" type="number" name="width" placeholder="Select Width"/>
 
         <label for="height">Height:</label>
         <small>select height</small>
-        <input id="height" type="number" placeholder="Select Height"/>
+        <input id="height" type="number" name="height" placeholder="Select Height"/>
 
         <label for="color">Color:</label>
-        <small><input id="color" type="color" /> pick a color </small>
+        <small><input id="color" type="color" name="color"/> pick a color </small>
         
     </section>
 
@@ -40,9 +40,9 @@
         <p id="color_output"><!--colour text goes here --></p>
     </section>
 
-    <section class="quadrant-four grid-cell">
+    <section class="quadrant-four grid-cell" id="colorbox">
       <h2>Color</h2>
-      <div id="block"><!--color box goes here --></div>
+      <canvas id="block"><!--color box goes here --></canvas>
     
     </section>
 
